@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY target/*.jar app.jar
 
-ENV PORT=6000
+ENV PORT=9000
 
-EXPOSE 6000
+EXPOSE 9000
 
 ENTRYPOINT ["java", "-jar", "app.jar"]

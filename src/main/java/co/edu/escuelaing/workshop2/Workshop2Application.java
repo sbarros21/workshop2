@@ -13,7 +13,7 @@ public class Workshop2Application {
 
 		application.setDefaultProperties(
 				Map.of("server.port",
-						System.getenv().getOrDefault("PORT", "6000")));
+						System.getenv().getOrDefault("PORT", "9000")));
 
 		application.run(args);
 	}
